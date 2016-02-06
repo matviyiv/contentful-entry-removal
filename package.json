@@ -1,0 +1,26 @@
+{
+  "name": "contentful-entry-removal",
+  "version": "1.0.0",
+  "description": "Remove all entries in Contentful space.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "contentful",
+    "entry",
+    "remove",
+    "space"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matviyiv/contentful-entry-removal.git"
+  },
+  "author": "Nazar Matviyiv",
+  "license": "ISC",
+  "dependencies": {
+    "contentful-management": "^0.8.5",
+    "yargs": "^3.32.0"
+  }
+}
