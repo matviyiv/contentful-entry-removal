@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var contentful = require('contentful-management'),
   argv = require('yargs')
     .default('interval', 5000)
