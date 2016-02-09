@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Remove all entries in Contentful space.",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
